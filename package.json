@@ -1,13 +1,11 @@
 {
   "name": "prisma-postgres-quickstart",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "posts:view": "ts-node posts.ts view",
-    "users:create": "ts-node users.ts create",
-    "users:subscribe": "ts-node users.ts subscribe"
+    "accelerate": "ts-node accelerate.ts",
+    "pulse": "ts-node pulse.ts"
   },
   "prisma": {
     "seed": "ts-node ./prisma/seed.ts"
@@ -17,12 +15,12 @@
   "license": "ISC",
   "devDependencies": {
     "@types/node": "^22.7.5",
-    "prisma": "^5.21.0",
+    "prisma": "^5.21.1",
     "ts-node": "^10.9.2",
     "typescript": "^5.6.3"
   },
   "dependencies": {
-    "@prisma/client": "^5.21.0",
+    "@prisma/client": "^5.21.1",
     "@prisma/extension-accelerate": "^1.2.1",
     "@prisma/extension-pulse": "^1.2.0"
   }
