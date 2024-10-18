@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "accelerate": "ts-node accelerate.ts",
-    "pulse": "ts-node pulse.ts"
+    "accelerate": "ts-node queries.ts",
+    "pulse": "ts-node realtime.ts"
   },
   "prisma": {
     "seed": "ts-node ./prisma/seed.ts"
